@@ -16,7 +16,8 @@ The main aim is to replace a remote controller with some hand gestures. As this 
 
 We add another gesture for <b>zoom mode</b> more over we add another part which pass the key points' hitory to point history model to predict whether the action is zoom in or zoom out.
 <br>
-<img src="https://github.com/farhad-99/hand-gesture-movement-recognition/tree/main/media/zoom.png"  width="400" height="300">
+![zoom](https://github.com/farhad-99/hand-gesture-movement-recognition/assets/96428374/1cba4b73-c1dd-4ace-8756-914cda193fbb)
+
 <br>
 The
 # Demo
