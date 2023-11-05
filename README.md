@@ -14,7 +14,6 @@ The main aim is to replace a remote controller with some hand gestures. As this 
 <br>
 
 
-https://github.com/farhad-99/hand-gesture-movement-recognition/assets/96428374/4718edd9-fad8-4f02-8ddf-ef06bada522d
 
 
 
@@ -23,6 +22,7 @@ We add another gesture for <b>zoom mode</b> more over we add another part which 
 ![zoom](https://github.com/farhad-99/hand-gesture-movement-recognition/assets/96428374/1cba4b73-c1dd-4ace-8756-914cda193fbb)
 
 <br>
+https://github.com/farhad-99/hand-gesture-movement-recognition/assets/96428374/4718edd9-fad8-4f02-8ddf-ef06bada522d
 
 The
 # Demo
