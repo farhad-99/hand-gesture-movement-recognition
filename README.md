@@ -62,15 +62,10 @@ This is a sample program for real-time inference.<br>
 You can also collect training data (key points) for hand sign recognition.<br>
 
 #### Collecting data for new gesture
-you should run app.py and press 'k' to enter recording key_point mode.
-When you see <b> MODE : Logging key point </b> you can make your desire hand pose hand press a number (this number will be the class number of your hand gesture in training stage ).
-number of collected data  should be in same order as other classes to avoid biases in our model.
+You should run app.py and press 'k' to enter the recording key_point mode. When you see 'MODE: Logging key point,' you can make your desired hand pose and press a number (this number will be the class number of your hand gesture in the training stage). The number of collected data should be in the same order as other classes to avoid biases in our model
 
 #### Collecting data for new movement
-you should run app.py and press 'h' to enter recording key_point mode.
-When you see <b> MODE : Logging Point History </b> you can make your desire movement and press a number (this number will be the class number of your hand movement in training stage).
-amount of collected data should be in same order as other classes to avoid biases in our model.
-
+You should run app.py and press 'h' to enter the recording key_point mode. When you see 'MODE: Logging Point History,' you can make your desired movement and press a number (this number will be the class number of your hand movement in the training stage). The amount of collected data should be in the same order as other classes to avoid biases in our model.
 you can edit key points' detail here
 
 https://github.com/farhad-99/hand-gesture-movement-recognition/blob/b0075fe728eb6c8d29247dd099dc5f81469a93d2/app.py#L145
@@ -79,8 +74,7 @@ here is the keypoint numbers map:
 ![hand landmark](https://github.com/farhad-99/hand-gesture-movement-recognition/assets/96428374/63f9c02f-6a5f-46eb-a18a-57d1401028c9)
 
 
-for using history_point_model we should define a start gesture, when the gesture is recognized our algorightm go to the next step and then the history_point_model begin to inference.
-So for each movement we can deploy a specific model.
+For using the history_point_model, we should define a start gesture. When the gesture is recognized, our algorithm proceeds to the next step, and then the history_point_model begins to infer. So, for each movement, we can deploy a specific model.
 
 
 
