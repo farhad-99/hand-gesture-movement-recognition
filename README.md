@@ -26,7 +26,7 @@ We add another gesture for <b>zoom mode</b> more over we add another part which 
 
 https://github.com/farhad-99/hand-gesture-movement-recognition/assets/96428374/90deed92-d2db-41ee-81f6-e820cd34e009
 
-
+https://github.com/farhad-99/hand-gesture-movement-recognition/blob/main/app.py#L139
 
 The
 # Demo
