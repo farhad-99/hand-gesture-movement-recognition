@@ -14,24 +14,11 @@ The main aim is to replace a remote controller with some hand gestures. As this 
 <br>
 
 
-
-
-
-We add another gesture for <b>zoom mode</b> more over we add another part which pass the key points' hitory to point history model to predict whether the action is zoom in or zoom out.
-<br>
-![zoom](https://github.com/farhad-99/hand-gesture-movement-recognition/assets/96428374/1cba4b73-c1dd-4ace-8756-914cda193fbb)
+We add new gesture for <b>zoom mode</b> more over we add another part which pass the key points' history into point history model to predict whether the action is zoom in or zoom out.
 <br>
 
-
-
-https://github.com/farhad-99/hand-gesture-movement-recognition/assets/96428374/90deed92-d2db-41ee-81f6-e820cd34e009
-
-
+<br>
 The
-
-https://github.com/farhad-99/hand-gesture-movement-recognition/blob/b0075fe728eb6c8d29247dd099dc5f81469a93d2/app.py#L145
-
-
 # Demo
 Here's how to run the demo using your webcam.
 ```bash
@@ -68,6 +55,28 @@ Tracking confidence threshold (Default：0.5)
 ### app.py
 This is a sample program for real-time inference.<br>
 You can also collect training data (key points) for hand sign recognition.<br>
+
+#### Collecting data for new gesture
+you should run app.py and press 'k' to enter recording key_point mode.
+When you see <b> MODE : Logging key point </b> you can make your desire hand pose hand press a number (this number will be the class number of your hand gesture in training stage ).
+number of collected data  should be in same order as other classes to avoid biases in our model.
+
+#### Collecting data for new movement
+you should run app.py and press 'h' to enter recording key_point mode.
+When you see <b> MODE : Logging Point History </b> you can make your desire movement and press a number (this number will be the class number of your hand movement in training stage).
+amount of collected data should be in same order as other classes to avoid biases in our model.
+
+you can edit key points' detail here
+
+https://github.com/farhad-99/hand-gesture-movement-recognition/blob/b0075fe728eb6c8d29247dd099dc5f81469a93d2/app.py#L145
+
+here is the keypoint numbers map:
+
+
+for using history_point_model we should define a start gesture, when the gesture is recognized our algorightm go to the next step and then the history_point_model begin to inference.
+So for each movement we can deploy a specific model.
+
+
 
 
 ### model_training.ipynb
