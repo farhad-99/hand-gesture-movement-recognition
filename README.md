@@ -18,9 +18,13 @@ We add new gesture for <b>zoom mode</b> more over we add another part which pass
 <br>
 
 
+![zoom](https://github.com/farhad-99/hand-gesture-movement-recognition/assets/96428374/b2695f5a-7b41-4f6d-bc3f-cd8071ef4bde)
 
 
-Uploading output.mp4…
+
+
+
+https://github.com/farhad-99/hand-gesture-movement-recognition/assets/96428374/6f0dc66c-f8ab-48af-b6ae-374c8a8949da
 
 
 
