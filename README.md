@@ -16,10 +16,12 @@ The main aim is to replace a remote controller with some hand gestures. As this 
 
 We add new gesture for <b>zoom mode</b> more over we add another part which pass the key points' history into point history model to predict whether the action is zoom in or zoom out.
 <br>
-![zoom](https://github.com/farhad-99/hand-gesture-movement-recognition/assets/96428374/4213e3fe-688c-410b-95cd-01e55546315a)
 
 
-https://github.com/farhad-99/hand-gesture-movement-recognition/assets/96428374/4e3b0549-681f-4109-9504-5f42b862860c
+
+
+Uploading output.mp4…
+
 
 
 <br>
@@ -71,7 +73,7 @@ you can edit key points' detail here
 https://github.com/farhad-99/hand-gesture-movement-recognition/blob/b0075fe728eb6c8d29247dd099dc5f81469a93d2/app.py#L145
 
 here is the keypoint numbers map:
-![hand landmark](https://github.com/farhad-99/hand-gesture-movement-recognition/assets/96428374/63f9c02f-6a5f-46eb-a18a-57d1401028c9)
+![hand landmark](https://github.com/farhad-99/hand-gesture-movement-recognition/assets/96428374/0fad6aea-203b-4cf3-b78b-08ec2afd5fa3)
 
 
 For using the history_point_model, we should define a start gesture. When the gesture is recognized, our algorithm proceeds to the next step, and then the history_point_model begins to infer. So, for each movement, we can deploy a specific model.
