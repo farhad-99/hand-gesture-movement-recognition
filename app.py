@@ -100,7 +100,7 @@ def main():
 
     while True:
         fps = cvFpsCalc.get()
-
+        #
         # Process Key (ESC: end) #################################################
         key = cv.waitKey(10)
         if key == 27:  # ESC
